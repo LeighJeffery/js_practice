@@ -91,5 +91,5 @@ let priceRanges = [
 let restaurants = [
     {averagePerson: 5}
 ]
-// Note: what? No idea what was done here. I pretty much copied along here. Do this again till you understand what
-// his point was.
+// Note about price range excercise: what? No idea what was done here. I pretty much copied along here. Do this again till you understand what
+// his point was. 
