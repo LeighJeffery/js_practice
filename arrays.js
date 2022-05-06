@@ -15,6 +15,7 @@ const numbers2 = [1, 4, 7];
 
 console.log(numbers2.includes(7));
 
+// writing a function for inlucdes instead of using the above method.
 function includes(array, searchElement) {
     for (let anywordiwant of array)
         if (anywordiwant === searchElement)
@@ -41,14 +42,12 @@ const newNums = except(numbers3, [6, 10]);
 
 console.log(newNums);
 
-// moving and element in an array by creating a function 'move' using 
+// moving and element in an array by creating a function 'move' using splice and spread
 const moreNums = [3, 4 , 0, 7, 9];
 
 function move(array, index, offset) {
     const movedNums = [...array];
     const element = movedNums.splice(index, 1)[0];
-    
-
     // note: pick up here. I'm not understanding this solution. 
 };
 
